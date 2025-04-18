@@ -12,9 +12,9 @@ Welcome to **Bot Battlr** – build your bot army!
 ## Getting Started
 
 1. Clone this repository
-2. Install dependencies
-3. Start the JSON server:
-4. Start the React app:
+2. Install dependencies: **npm install**
+3. Start the JSON server: **npx json-server db.json --port 8001**
+4. Start the React app: **npm start**
 
 ## API Endpoints
 
