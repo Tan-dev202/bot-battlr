@@ -36,8 +36,8 @@ export default function BotCard({ bot, showBotSpecs, enlistBot, dischargeBot }) 
           />
           <button
             className="btn btn-danger btn-sm position-absolute top-0 end-0"
-            onClick={(e) => {
-              e.stopPropagation();
+            onClick={(event) => {
+              event.stopPropagation();
               dischargeBot(bot.id);
             }}
           >
@@ -53,8 +53,8 @@ export default function BotCard({ bot, showBotSpecs, enlistBot, dischargeBot }) 
             <span>🛡️ Armor: {bot.armor}</span>
             <button
               className="btn btn-sm btn-success"
-              onClick={(e) => {
-                e.stopPropagation();
+              onClick={(event) => {
+                event.stopPropagation();
                 enlistBot(bot);
               }}
             >
